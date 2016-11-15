@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"Changelist" : 3039270,
 	"BuildId" : "",
@@ -5,4 +6,13 @@
 	{
 		"KWEL_GAME_GAME_JAM" : "UE4Editor-KWEL_GAME_GAME_JAM-5538.dll"
 	}
+=======
+{
+	"Changelist" : 3039270,
+	"BuildId" : "",
+	"Modules" : 
+	{
+		"KWEL_GAME_GAME_JAM" : "UE4Editor-KWEL_GAME_GAME_JAM-5538.dll"
+	}
+>>>>>>> ae01d6a602be6b6e93515cadd221f83b49609c75
 }

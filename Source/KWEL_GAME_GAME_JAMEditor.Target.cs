@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Fill out your copyright notice in the Description page of Project Settings.
 
 using UnrealBuildTool;
@@ -23,3 +24,30 @@ public class KWEL_GAME_GAME_JAMEditorTarget : TargetRules
 		OutExtraModuleNames.AddRange( new string[] { "KWEL_GAME_GAME_JAM" } );
 	}
 }
+=======
+// Fill out your copyright notice in the Description page of Project Settings.
+
+using UnrealBuildTool;
+using System.Collections.Generic;
+
+public class KWEL_GAME_GAME_JAMEditorTarget : TargetRules
+{
+	public KWEL_GAME_GAME_JAMEditorTarget(TargetInfo Target)
+	{
+		Type = TargetType.Editor;
+	}
+
+	//
+	// TargetRules interface.
+	//
+
+	public override void SetupBinaries(
+		TargetInfo Target,
+		ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
+		ref List<string> OutExtraModuleNames
+		)
+	{
+		OutExtraModuleNames.AddRange( new string[] { "KWEL_GAME_GAME_JAM" } );
+	}
+}
+>>>>>>> ae01d6a602be6b6e93515cadd221f83b49609c75
